@@ -1,0 +1,163 @@
+/* import font */
+@import url("https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;600&display=swap");
+
+/* font-family: 'Outfit', sans-serif;  300, 400, 600*/
+/* font size paragraph 18px */
+
+:root {
+  /* primary colors */
+  --soft-blue: hsl(215, 51%, 70%);
+  --cyan: hsl(178, 100%, 50%);
+  /* main background */
+  --very-dark-blue: hsl(217, 54%, 11%);
+  /* card background */
+  --very-dark-blue-card: hsl(216, 50%, 16%);
+  /* line on the card */
+  --very-dark-blue-line: hsl(215, 32%, 27%);
+  /* white color */
+  --white: hsl(0, 0%, 100%);
+}
+
+/* html styling */
+html {
+  background-color: var(--very-dark-blue);
+  font-family: "Outfit", sans-serif;
+}
+
+/* h1 styling */
+h1 a {
+  color: var(--white);
+  text-decoration: none;
+  font-weight: 400;
+  font-size: 1.3rem;
+  margin: 0;
+}
+
+h1 a:active {
+  color: var(--cyan);
+  background-color: transparent;
+}
+
+/* main-container styling */
+.main-container {
+  display: flex;
+  margin: 0 auto;
+  max-width: 23.43rem;
+  max-height: 43.75rem;
+}
+/* card styling */
+.card {
+  display: flex;
+  flex-direction: column;
+  background-color: var(--very-dark-blue-card);
+  padding: 1.5rem 1.5rem 2rem 1.5rem;
+  max-width: 23.43rem;
+  max-height: 43.75rem;
+  border-radius: 1rem;
+  margin: 0 auto;
+}
+
+/* main-img styling */
+.main-img {
+  width: 100%;
+  border-radius: 0.5rem;
+}
+
+.main-img:active {
+  content: url("./images/icon-view.svg");
+  background-color: var(--cyan);
+}
+
+/* main-text styling */
+.main-text {
+  color: var(--soft-blue);
+  font-size: 1.1rem;
+  font-weight: 200;
+  margin-top: 0;
+  margin-bottom: 0;
+  padding-bottom: 0.3rem;
+}
+
+/* balance styling */
+.balance {
+  display: flex;
+  align-items: center;
+  width: 100%;
+  gap: 0.5rem;
+}
+
+.balance img {
+  height: 10%;
+}
+
+.balance a {
+  color: var(--cyan);
+}
+
+/* days-left styling */
+.days-left {
+  color: var(--soft-blue);
+  display: flex;
+  flex-direction: row;
+  width: 50%;
+  align-items: center;
+  justify-content: right;
+  gap: 0.5rem;
+  padding-left: 2.6rem;
+}
+
+.days-left img {
+  height: 10%;
+}
+
+/* line styling */
+hr {
+  border: none;
+  border-top: 0.5px solid var(--very-dark-blue-line);
+  margin: 10px 0;
+}
+
+/* card-attribution styling */
+.card-attribution {
+  display: flex;
+  flex-direction: row;
+
+  width: 100%;
+  margin: 0;
+}
+
+.card-attribution img {
+  width: 10%;
+  border: 0.01rem solid var(--white);
+  border-radius: 50%;
+}
+
+.card-attribution a:active {
+  color: var(--cyan);
+}
+
+/* figcaption styling */
+figcaption {
+  color: var(--soft-blue);
+  padding-left: 1rem;
+  display: flex;
+  align-items: center;
+}
+
+figcaption a {
+  color: var(--white);
+  font-weight: 300;
+  align-items: left;
+  text-decoration: none;
+  padding-left: 0.3rem;
+}
+
+/* attribution styling */
+.attribution {
+  font-size: 11px;
+  text-align: center;
+  color: var(--soft-blue);
+}
+.attribution a {
+  color: var(--white);
+}
