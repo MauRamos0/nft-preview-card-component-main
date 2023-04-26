@@ -66,6 +66,8 @@ h1 a:active {
 .main-img:active {
   content: url("./images/icon-view.svg");
   background-color: var(--cyan);
+  display: flex;
+  margin: 0 auto;
 }
 
 /* main-text styling */
