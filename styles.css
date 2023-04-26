@@ -42,8 +42,8 @@ h1 a:hover {
 .main-container {
   display: flex;
   margin: 0 auto;
+  padding-top: 2rem;
   max-width: 23.43rem;
-  max-height: 43.75rem;
 }
 /* card styling */
 .card {
